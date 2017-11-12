@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <TextView
+       android:id="@+id/timeRemaining"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textColor="#348fc3"
+       android:text="Time Remaining: "
+       android:textSize="28dp"
+       android:layout_centerVertical="true"
+       android:layout_centerHorizontal="true" />
+
+   <Button
+       android:id="@+id/button"
+       android:onClick="endWorkout"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_alignParentStart="true"
+       android:text="End Workout"
+       android:layout_toStartOf="@+id/timeRemaining"
+       android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
